@@ -62,3 +62,16 @@ cmake-build-*/
 
 # Vim
 *.swp
+/graph_info.json
+/environment.sh.env
+/environment.ps1.env
+/environment.bat.env
+/deactivate.sh
+/deactivate.ps1
+/deactivate.bat
+/conaninfo.txt
+/conanbuildinfo.txt
+/conan.lock
+/activate.sh
+/activate.ps1
+/activate.bat
