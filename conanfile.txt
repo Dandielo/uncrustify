@@ -1,0 +1,5 @@
+[build_requires]
+cmake/3.22.0
+
+[generators]
+virtualenv
