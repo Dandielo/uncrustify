@@ -317,6 +317,7 @@
 30756  cpp/bug_1296.cfg                                     cpp/bug_1296.cpp
 30757  cpp/Issue_3054.cfg                                   cpp/Issue_3054.cpp
 30758  cpp/Issue_3054-2.cfg                                 cpp/Issue_3054-2.cpp
+30759  cpp/lambda4.cfg                                      cpp/lambda2.cpp
 
 30761  cpp/out-668-F.cfg                                    cpp/out-668.cpp
 30762  cpp/out-668-T.cfg                                    cpp/out-668.cpp
@@ -807,6 +808,7 @@
 34176  cpp/align_assign_span-1.cfg                          cpp/i1509_bug_1112_correction.cpp
 34177  cpp/sp_func_call_paren.cfg                           cpp/sp_func_call_paren.cpp
 34178  cpp/Issue_3237.cfg                                   cpp/Issue_3237.cpp
+34179  cpp/arith-vs-byref.cfg                               cpp/arith_vs_byref.cpp
 
 34180  cpp/bug_1402.cfg                                     cpp/bug_1402.cpp
 

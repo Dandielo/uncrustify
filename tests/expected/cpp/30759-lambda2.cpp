@@ -1,37 +1,37 @@
 void f1()
 {
    auto a =
-      [=] (int *a, Something& b){
-         std::cout << "blah: " << *a;
-      };
+       [=] (int *a, Something& b){
+          std::cout << "blah: " << *a;
+       };
 }
 
 void f1a()
 {
    std::for_each(a, b,
-                 [] (Something& b){
-                    std::cout << "blah: " << *a;
-                 }
-                 );
+       [] (Something& b){
+          std::cout << "blah: " << *a;
+       }
+       );
 }
 
 void f1b()
 {
    std::for_each(a, b,
-                 [] (int& b) -> foo {
-                    b += 3;
-                    return(b);
-                 }
-                 );
+       [] (int& b) -> foo {
+          b += 3;
+          return(b);
+       }
+       );
 }
 
 void f2()
 {
    Invoke(a, b,
-          [&one, two] (int *a, Something& b){
-             std::cout << "blah: " << *a;
-          }
-          );
+       [&one, two] (int *a, Something& b){
+          std::cout << "blah: " << *a;
+       }
+       );
 }
 
 void f3a()
@@ -43,10 +43,10 @@ void f3a()
 void f3b()
 {
    Invoke(a, b,
-          [&one, two]{
-             std::cout << "blah: " << one << two;
-          }
-          );
+       [&one, two]{
+          std::cout << "blah: " << one << two;
+       }
+       );
 }
 
 void f3c()
@@ -72,7 +72,7 @@ void g1b()
 void g2()
 {
    Invoke(a, b,
-          [&one, two] (int *a, Something&b){ std::cout << "blah: " << *a; });
+       [&one, two] (int *a, Something&b){ std::cout << "blah: " << *a; });
 }
 
 void h1()
